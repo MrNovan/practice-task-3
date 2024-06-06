@@ -25,7 +25,6 @@ function addTodo(e) {
 }
 
 function removeTodo(e) {
-  // Remove todo
   if (e.target.classList.contains('delete')) {
     if (confirm('Вы хотите удалить заметку?')) { // eslint-disable-line
       e.target.parentElement.remove();
